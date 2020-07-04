@@ -1,15 +1,15 @@
 .visually-hidden:not(:focus):not(:active) {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        -webkit-clip-path: inset(100%);
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 * {
@@ -165,9 +165,6 @@ h3 {
     color: #ffffff;
 }
 
-@keyframes slide {
-
-}
 
 .slider__item {
     display: none;
@@ -215,7 +212,8 @@ h3 {
     display: inline-block;
     height: 11px;
     width: 11px;
-    padding: 8px; /*увеличение зоны нажатия */
+    padding: 8px;
+    /*увеличение зоны нажатия */
     border-radius: 50%;
     cursor: pointer;
 }
@@ -235,15 +233,15 @@ h3 {
 }
 
 .slider__controls-item--active::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 1px;
-  z-index: 2;
-  width: 11px;
-  height: 11px;
-  border: 2px solid #d3c1ad;
-  border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    z-index: 2;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #d3c1ad;
+    border-radius: 50%;
 }
 
 .slider__arrow {
@@ -477,7 +475,7 @@ h3 {
 }
 
 .wordpress-theme__title--span {
-    color:#c7b299;
+    color: #c7b299;
 }
 
 .wordpress-theme__text {
@@ -551,29 +549,28 @@ h3 {
     padding: 9px 20px;
 }
 
-input[type="radio"]:checked, 
-input[type="radio"]:not(:checked) 
-{
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
     position: absolute;
     left: -9999px;
 }
 
-input[type="radio"]:checked + label, 
-input[type="radio"]:not(:checked) + label {
+input[type="radio"]:checked+label,
+input[type="radio"]:not(:checked)+label {
     display: inline-block;
     position: relative;
     cursor: pointer;
 }
 
-input[type="radio"]:checked + label, 
-input[type="radio"]:not(:checked) + label {
+input[type="radio"]:checked+label,
+input[type="radio"]:not(:checked)+label {
     content: '';
     border: 1px solid #ebebeb;
     border-radius: 2px;
 }
 
-input[type="radio"]:checked + label:hover, 
-input[type="radio"]:not(:checked) + label:hover {
+input[type="radio"]:checked+label:hover,
+input[type="radio"]:not(:checked)+label:hover {
     color: #ffffff;
     background-color: #c7b299;
 }
@@ -798,7 +795,7 @@ input[type="radio"]:not(:checked) + label:hover {
     width: 100%;
 }
 
-.waxom-statistic__item  {
+.waxom-statistic__item {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -862,6 +859,7 @@ input[type="radio"]:not(:checked) + label:hover {
     font-weight: 300;
     color: #c7b299;
 }
+
 .statistic-item__text--indent {
     margin-bottom: 20px;
 }
@@ -890,7 +888,6 @@ input[type="radio"]:not(:checked) + label:hover {
 .blog--wrapper {
     width: 100%;
     max-width: 1170px;
-    /* text-align: center; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -978,6 +975,7 @@ input[type="radio"]:not(:checked) + label:hover {
     line-height: 20px;
     font-weight: 300;
 }
+
 .blog__link--indent {
     margin-left: 28px;
     margin-bottom: 33px;
@@ -1000,7 +998,6 @@ input[type="radio"]:not(:checked) + label:hover {
 }
 
 
-
 .blog-button__previous-next {
     margin-top: 40px;
 }
@@ -1009,23 +1006,12 @@ input[type="radio"]:not(:checked) + label:hover {
     display: inline-block;
     border: solid #d1d1d1;
     border-width: 0 2px 2px 0;
-    /* box-shadow: 0 0 0 6px #fff, 0 0 0 12px #888; */
-
-    /* box-shadow: 0 0 0 1px #d1d1d1; */
-    /* outline: 1px solid #d1d1d1; */
     padding: 5px;
 }
 
 .blog-button:hover {
     border-color: #c7b299;
 }
-
-/* .blog-button::after {
-    content: "";
-    width: 10px;
-    height: 10px;
-    outline: solid #d1d1d1;
-} */
 
 .blog-button__previous {
     transform: rotate(135deg);
@@ -1171,7 +1157,6 @@ input[type="radio"]:not(:checked) + label:hover {
 
 .other-information__date-link--indent {
     margin-bottom: 10px;
-    /* margin-top: 19px; */
 }
 
 .other-information__date-link--indent2,
@@ -1229,14 +1214,11 @@ input[type="radio"]:not(:checked) + label:hover {
 .other-information__time {
     color: #363636;
 }
+
 .other-information__time--indent {
-    /* margin-top: 10px; */
     margin-bottom: 20px;
 }
 
-.other-information__text--indent {
-    /* margin-top: 19px; */
-}
 
 .footer {
     width: 100%;
@@ -1266,8 +1248,7 @@ input[type="radio"]:not(:checked) + label:hover {
     color: #555555;
 }
 
-.footer__copyright--indent {
-}
+.footer__copyright--indent {}
 
 .footer__link--waxom--indent {
     padding-right: 12px;
